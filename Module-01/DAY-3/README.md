@@ -32,13 +32,15 @@ public class Demo
 {
     public static void main(String[] args)
     {
-       Scanner sc=new Scanner(System.in);
-       int num=sc.nextInt();
+        Scanner sc=new Scanner(System.in);
+        int num=sc.nextInt();
         if(num==0)
-        System.out.println("Given number is Zero");
+        {
+           System.out.println("Given number is Zero");
+        } 
         else
         {
-        	 System.out.println(num+ " is Non-Zero");
+        	  System.out.println(num+ " is Non-Zero");
         }
     }
 }
