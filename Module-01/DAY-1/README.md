@@ -24,10 +24,21 @@ Developed by:
 RegisterNumber:  
 */
 ```
+```java
+class Student
+{
+   String name = "John"; String address = "Chennai";
+}
+class Test
+{
+   public static void main(String[] args)
+   {
+      Student obj = new Student();
+      System.out.println(obj.name+" "+obj.address);
+   }
+}
 
-## Sourcecode.java:
-
-
+```
 
 
 
@@ -35,6 +46,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![437386419-8072b3cc-b32c-4e47-8384-c7b28682bf80](https://github.com/user-attachments/assets/5cb645eb-b588-4bee-8c9d-85cdfd252c96)
 
 
 ## RESULT:
