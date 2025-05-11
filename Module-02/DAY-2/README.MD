@@ -60,12 +60,8 @@ public class addition
 
 
 ## OUTPUT:
-```
-Expected    Got 
 
-17          17
-```
-
+![alt text](<Screenshot 2025-05-11 203732.png>)
 
 ## RESULT:
 Thus the java program to display the addition number using private modifiers only was executed successfully.

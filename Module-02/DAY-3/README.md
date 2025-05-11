@@ -61,17 +61,8 @@ public class Main
 
 
 ## OUTPUT:
-```
-Input       Expected                                  Got
+![alt text](<Screenshot 2025-05-11 203804.png>)
 
-3           Elements in Array are :                   Elements in Array are :                   
-            3  4  5  6  7                             3  4  5  6  7
-4
-5
-6
-7
-
-```
 ## RESULT:
 Thus, the Java program Thus the java program to read 5 values and display the all 5 values from array using single dimensional  was executed successfully.
 
