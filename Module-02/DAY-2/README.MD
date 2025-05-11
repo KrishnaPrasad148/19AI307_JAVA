@@ -60,7 +60,11 @@ public class addition
 
 
 ## OUTPUT:
+```
+Expected    Got 
 
+17          17
+```
 
 
 ## RESULT:
