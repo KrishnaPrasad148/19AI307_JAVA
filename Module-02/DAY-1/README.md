@@ -26,7 +26,7 @@ RegisterNumber: 212223230108
 
 ## Sourcecode.java:
 
-```
+```java
 import java.util.Scanner;
 
 public class CubeCalculator {
