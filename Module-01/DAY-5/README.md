@@ -30,7 +30,7 @@ RegisterNumber: 212223230108
 import java.util.*;
 public class Demo
 {
-    static String age="18";
+    static int age = 18;
     String name;
 	public static void main(String[] args) {
 	Scanner sc=new Scanner(System.in);
