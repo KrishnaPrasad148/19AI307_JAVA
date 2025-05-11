@@ -18,13 +18,38 @@ To write a Java program that reads an array size and elements from the user and 
  ```
 /*
 Program to implement a Smallest Element in an Array
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
+import java.util.Scanner;
 
+public class Main
+{
+   public static void main(String[] args)
+   {
+      int tot, i, small;
+      Scanner scan = new Scanner(System.in);
+      
+      tot = scan.nextInt();
+      int[] arr = new int[tot];
+      for(i=0; i<tot; i++)
+         arr[i] = scan.nextInt();
+      
+      small = arr[0];
+      for(i=1; i<tot; i++)
+      {
+         if(small>arr[i])
+            small = arr[i];
+      }
+      
+      System.out.println("Smallest Number = " +small);
+   }
+}
+
+```
 
 
 
@@ -33,6 +58,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![Screenshot 2025-05-11 201945](https://github.com/user-attachments/assets/3a8c920d-beb4-46f6-a0f9-be23f38401e2)
 
 
 ## RESULT:
