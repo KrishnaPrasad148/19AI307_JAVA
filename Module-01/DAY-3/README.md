@@ -19,14 +19,13 @@ b.	If false, print 'num' followed by " is Non-Zero"
 
 ## PROGRAM:
  ```
-/*
 Program to implement a class & objects using Java
 Developed by: Krishna Prasad S
 RegisterNumber: 212223230108
 ```
 
 ## Sourcecode.java:
-```
+```java
 import java.util.Scanner;
 
 public class Demo
