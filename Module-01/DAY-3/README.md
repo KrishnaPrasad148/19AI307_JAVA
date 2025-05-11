@@ -40,7 +40,7 @@ public class Demo
         } 
         else
         {
-        	  System.out.println(num+ " is Non-Zero");
+           System.out.println(num+ " is Non-Zero");
         }
     }
 }
