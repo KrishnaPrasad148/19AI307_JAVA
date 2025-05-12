@@ -24,23 +24,43 @@ To write a parameterized constructor in the Employee class that initializes name
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Parameterized Constructor Using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Krishna Prasad S
+RegisterNumber: 212223230108
 ```
 
 ## Sourcecode.java:
 
+```java
+class Laptop {
+    String brand;
+    double price;
+    public Laptop() {
+        this.brand = "Apple";
+        this.price = 42500.75;
+    }
 
+    public String getBrand() {
+        return brand;
+    }
 
-
-
-
-
+    public double getPrice() {
+        return price;
+    }
+}
+public class Sample {
+    public static void main(String[] args) {
+        Laptop myLaptop = new Laptop();
+        String laptopBrand = myLaptop.getBrand();
+        System.out.println(laptopBrand);
+        double laptopPrice = myLaptop.getPrice();
+        System.out.println(laptopPrice);
+    }
+}
+```
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/dd258499-d8e9-427a-97a0-9157d4055a30)
 
 
 ## RESULT:

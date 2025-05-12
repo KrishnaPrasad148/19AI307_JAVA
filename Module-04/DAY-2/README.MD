@@ -28,15 +28,49 @@ To create  a Java program to perform the inheritance concept for employee detail
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Inheritance using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
+import java.util.Scanner; 
 
+class Person
+{
+    int emp_id;
+    String name; String dept;
+}
+
+class Employee extends Person
+{
+    void getDetails()
+    {
+        Scanner sc = new Scanner(System.in); 
+        name=sc.nextLine();
+        emp_id=sc.nextInt();
+        sc.nextLine(); 
+        dept=sc.next();
+    }
+    void display()
+    {
+        System.out.println("Name: "+name+"Emp_ID: "+emp_id+"Department: "+dept);
+    }
+}
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Employee emp=new Employee(); 
+        emp.getDetails();
+        emp.display();
+    }
+}
+
+
+```
 
 
 
@@ -44,7 +78,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
-
+![alt text](<Screenshot 2025-05-12 165356.png>)
 
 
 ## RESULT:

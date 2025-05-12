@@ -27,15 +27,44 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a final & Static using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
+class Name
+{
+   String Fname; 
+   String Mname; 
+   String Lname;
+   void dispName(String fn,String mn,String ln)
+   {
+      System.out.println(fn+" "+mn+" "+ln);
+   }
+}
+class Employee
+{
+   int Emp_Id;
+   Name obj=new Name();
+   void disp(int id)
+   {
+      System.out.println(id); 
+      Name name=new Name();
+      name.dispName("B","Leo","John");
+   }
+}
+public class Main
+{
+   public static void main(String[] args)
+   {
+      Employee emp=new Employee(); 
+      emp.disp(101);
+   }
+}
 
+```
 
 
 
@@ -43,7 +72,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
-
+![alt text](<Screenshot 2025-05-12 174039.png>)
 
 
 ## RESULT:
