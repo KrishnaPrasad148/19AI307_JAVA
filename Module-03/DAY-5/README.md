@@ -14,23 +14,39 @@ To write a Java program that creates a StringBuilder object using a given string
 
 ## PROGRAM:
  ```
-/*
 Program to implement a StringBuilder Object Reference in Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
 
+```java
+import java.util.*;
 
+public class CapacityTest2 
+{ 
+    public static void main(String[ ] args) 
+    { 
+        Scanner sc=new Scanner(System.in);
+        String str1=sc.nextLine();
+        StringBuilder sb = new StringBuilder(str1); 
+        int length = sb.length(); 
+        int capacity = sb.length() + 16; 
+  
+        System.out.println(length); 
+        System.out.println(capacity); 
+    } 
+}
+
+```
 
 
 
 
 
 ## OUTPUT:
-
+![alt text](<Screenshot 2025-05-12 164042.png>)
 
 
 ## RESULT:

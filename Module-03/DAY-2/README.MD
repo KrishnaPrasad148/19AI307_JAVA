@@ -22,15 +22,28 @@ To develop a java program use append() method concatenates the given argument wi
 
 ## PROGRAM:
  ```
-/*
 Program to implement a String Buffer using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
+import java.util.*;
 
+public class StringBufferExample
+{  
+    public static void main(String args[])
+    {  
+        Scanner sc=new Scanner(System.in);
+        String str1=sc.nextLine();
+        String str2=sc.nextLine();
+        StringBuffer sb=new StringBuffer(str1+" ");  
+        sb.append(str2);  
+        System.out.println(sb);  
+    }  
+}  
+```
 
 
 
@@ -38,8 +51,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
-
-
+![alt text](<Screenshot 2025-05-12 163329.png>)
 
 ## RESULT:
 Thus the java program use append() method concatenates the given argument with this String and use stringbuffer class was executed successfully.

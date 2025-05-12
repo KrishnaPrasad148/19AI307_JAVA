@@ -19,16 +19,31 @@ To create a java program using StringTokenizer class that tokenizes a string "My
 
 ## PROGRAM:
  ```
-/*
 Program to implement a String Tokenizer using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
 
+```java
+import java.util.*;
 
+public class tok
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        String str="My name is Java Programming";
+        StringTokenizer token=new StringTokenizer(str); 
+        while(token.hasMoreTokens())
+        {
+            System.out.println(token.nextToken());
+        }
+    }
+}
+
+```
 
 
 
@@ -36,6 +51,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/75834d6e-4726-4fab-a784-700c00296ddc)
 
 
 ## RESULT:
