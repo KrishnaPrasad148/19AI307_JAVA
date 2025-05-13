@@ -42,7 +42,8 @@ class Circle extends Shapes
     int rad; 
     void get()
     {
-        Scanner sc=new Scanner(System.in); rad=sc.nextInt();
+        Scanner sc=new Scanner(System.in); 
+        rad=sc.nextInt();
     }
 }
 
@@ -50,7 +51,8 @@ class Area extends Circle
 { 
     void cal()
     {
-        double result=3.14*rad*rad; System.out.println("Area of Circle is "+result);
+        double result=3.14*rad*rad; 
+        System.out.println("Area of Circle is "+result);
     }
 }
 
