@@ -1,4 +1,4 @@
-![Screenshot 2025-05-13 171651](https://github.com/user-attachments/assets/e9d380e2-b0ae-421c-ae6c-c5378601311a)# Ex.No:5(E) HAS-A RELATIONSHIP
+# Ex.No:5(E) HAS-A RELATIONSHIP
 ## AIM:
 To implement a  Java Program to Find the Largest or Max Number in Array using has - a relationship.
 ## ALGORITHM :
