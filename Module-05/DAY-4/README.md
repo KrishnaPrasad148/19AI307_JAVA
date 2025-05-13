@@ -17,22 +17,49 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a IS-A RELATIONSHIP AND HAS-A RELATIONSHIP using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
 
+```java
 
+import java.util.*; 
+class A
+{
+    int n,fact=1;
+    void factorial(int n)
+    {
+        this.n=n;
+        for(int i=1;i<=n;i++)
+        {
+            fact=fact*i;
+        }
+        System.out.println("Factorial is:"+fact);
+    }
+}
+
+public class Main
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in); 
+        int n=sc.nextInt();
+        A obj=new A();
+        obj.factorial(n);
+    }
+}
+
+```
 
 
 
 
 
 ## OUTPUT:
+![Screenshot 2025-05-13 171301](https://github.com/user-attachments/assets/8c225418-0e4a-4793-9a81-3fffa7732f72)
 
 
 
