@@ -77,6 +77,8 @@ public class Main
 
 
 ## OUTPUT:
+![Screenshot 2025-05-13 170525](https://github.com/user-attachments/assets/d7f2304f-716c-4d55-9ecc-3db8f9b6b0c4)
+
 
 
 
