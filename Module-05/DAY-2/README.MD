@@ -21,19 +21,55 @@ To Create a java program to display the value of volume of cylinder get the radi
 
 
 
-
-
 ## PROGRAM:
  ```
-/*
 Program to implement a tightly encapsulated class using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
 
+import java.lang.Math;
+import java.util.*;
+
+class Cylinder
+{ 
+    private int n1; 
+    private int n2;
+    void setnum1(int num1)
+    {
+        this.n1=num1;
+    }
+    void setnum2(int num2)
+    {
+        this.n2=num2;
+    }
+    public double getVolume()
+    {
+        double pi=22.0/7.0;
+        double result=pi*n1*n1*n2;  
+        return result;
+    }
+}
+
+public class Main
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in); 
+        int n1=sc.nextInt();
+        int n2=sc.nextInt();
+        Cylinder c=new Cylinder();
+        c.setnum1(n1); 
+        c.setnum2(n2); 
+        double result = c.getVolume();
+        System.out.println("volume of Cylinder is: "+result);
+    }
+}
+
+```
 
 
 
