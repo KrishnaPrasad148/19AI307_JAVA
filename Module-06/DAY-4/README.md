@@ -13,15 +13,37 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Packages using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
 
+//save by A.java
+package pack; 
+public class A
+{
+    public void msg()
+    {
+        System.out.println("Hello");
+    }
+}
+
+//save by B.java 
+package mypack;
+import pack.*;
+class B
+{
+    public static void main(String args[])
+    { 
+        A obj = new A();
+        obj.msg();
+    }
+}
+
+```
 
 
 
@@ -30,6 +52,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![Screenshot 2025-05-13 181046](https://github.com/user-attachments/assets/f6cded76-e461-497b-845f-aa2e696c39cd)
 
 
 ## RESULT:
