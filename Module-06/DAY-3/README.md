@@ -62,8 +62,8 @@ public class Main
         child1.show();
         child1.print();
         Child2 child2=new Child2(); 
-        chiild2.show();
-        chiild2.display();
+        child2.show();
+        child2.display();
     }
 }
 
