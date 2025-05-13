@@ -22,15 +22,66 @@ b.	Call the methods to get input and display results.
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Multiple Inheritance
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
 
+import java.util.*;
+
+interface Student
+{
+    public abstract void getdetails1();
+}
+interface Studentdet
+{
+    public abstract void getdetails2();
+}
+
+class Studentdetails implements Student,Studentdet
+{
+    Scanner sc=new Scanner(System.in);
+    int rollno;
+    String name;
+    int marks[]=new int[6];
+    int avg,sum=0;
+   
+    public void getdetails1()
+    { 
+        rollno=sc.nextInt();
+        name=sc.next();
+        System.out.println("Roll No : " +rollno);
+        System.out.println("Name : " +name);
+    }
+    public void getdetails2()
+    {   
+        for(int i=0;i<6;i++)
+        {
+            marks[i]=sc.nextInt();
+            sum=sum+marks[i];
+        }
+        avg=sum/6;
+        System.out.println("Average  : " +avg);
+    }
+    public void display()
+    {
+        getdetails1();
+        getdetails2();
+    }
+}
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	    Studentdetails obj = new Studentdetails(); 
+		obj.display(); 
+	}
+}
+
+```
 
 
 
@@ -39,6 +90,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![Screenshot 2025-05-13 181359](https://github.com/user-attachments/assets/86eabf15-b2d5-4ae9-9f7a-50c7b41de3f1)
 
 
 ## RESULT:
