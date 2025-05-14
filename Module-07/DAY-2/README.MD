@@ -66,7 +66,7 @@ public class Main
 
 ## OUTPUT:
 
-
+![Screenshot 2025-05-14 140406](https://github.com/user-attachments/assets/c7333d92-14c1-4f4a-95d4-daa74e992c13)
 
 ## RESULT:
 Thus the Java program to demonstrate control flow of try-catch-finally clause when NumberFormatException occur in try block and handled in catch block was executed successfully.
