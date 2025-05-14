@@ -23,15 +23,34 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Thread concepts using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
 
+import java.util.*;
+
+public class Multi extends Thread
+{
+    Scanner sc=new Scanner(System.in); 
+    public void run()
+    {
+        String str=sc.nextLine(); 
+        System.out.println("Thread Name:"+str);
+    }
+
+    public static void main(String args[])
+    {
+        Multi obj=new Multi(); 
+        Thread t1=new Thread(obj); 
+        t1.start();
+    }
+}
+
+```
 
 
 
@@ -40,6 +59,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![Screenshot 2025-05-14 140833](https://github.com/user-attachments/assets/9259ea8d-a85c-481d-bd75-cda8265fd3d7)
 
 
 ## RESULT:
