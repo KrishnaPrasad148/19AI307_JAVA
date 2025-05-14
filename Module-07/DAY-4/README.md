@@ -14,15 +14,48 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Packages using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
 
+import java.util.*;
+
+class Display
+{
+    synchronized static void wish(String name)
+    {
+        try
+        {
+            Thread.sleep(400);
+        }
+        catch(InterruptedException e)
+        {
+            e.printStackTrace();
+        }
+        System.out.println("Welcome :: "+ name);
+        System.out.println("Welcome :: "+ name);
+    }
+}
+
+class Mythread extends Thread
+{
+    protected String name;
+    public Mythread(String name)
+    {
+        this.name = name;
+    }
+    
+    public void run()
+    {
+        Display.wish(name);
+    }
+}
+
+```
 
 
 
@@ -31,6 +64,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![Screenshot 2025-05-14 141226](https://github.com/user-attachments/assets/b0042b2d-5af8-4214-bac3-33de01db4566)
 
 
 ## RESULT:
