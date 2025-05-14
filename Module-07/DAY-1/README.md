@@ -22,15 +22,35 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Exception Handling-Run Time Exception using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
+import java.util.*;
 
+public class Main
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        try
+        {
+            int a=sc.nextInt(); 
+            int b=sc.nextInt(); 
+            int res=a/b;
+
+            System.out.println("Result: "+res);
+        }
+        catch(ArithmeticException e)
+        {
+            System.out.println("You Shouldn't divide a number by zero");}
+        }
+}
+
+```
 
 
 
@@ -39,6 +59,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![Screenshot 2025-05-14 140107](https://github.com/user-attachments/assets/defe9c40-c958-4ac3-9334-406db9197716)
 
 
 ## RESULT:
