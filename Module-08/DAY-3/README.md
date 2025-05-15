@@ -15,15 +15,62 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Filter Reader using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
 
+import java.io.*;
+
+class CustomFilterReader1 extends FilterReader 
+{ 
+    CustomFilterReader1(Reader in)
+    {
+        super(in);
+    }
+    public int read() throws IOException 
+    {   
+        int x = super.read();
+        if ((char) x == ' ')
+            return ((int) '$'); 
+        else
+            return x;
+    }
+}
+
+public class FilterReaderExample 
+{ 
+    public static void main(String[] args) 
+    {
+        try 
+        {
+            FileOutputStream file1 = new FileOutputStream("javaFile123.txt"); 
+            FilterOutputStream filter = new FilterOutputStream(file1);
+            String s="India is my country"; 
+            
+            byte b[]=s.getBytes(); filter.write(b);
+            Reader reader = new FileReader("javaFile123.txt"); 
+            CustomFilterReader1 fr = new CustomFilterReader1(reader); 
+            
+            int i;
+            while ((i = fr.read()) != -1) 
+            { 
+                System.out.print((char) i);
+            }
+            fr.close();
+            reader.close();
+        } 
+        catch (Exception e) 
+        { 
+            e.getMessage();
+        }
+    }
+}
+
+```
 
 
 
