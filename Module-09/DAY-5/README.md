@@ -18,15 +18,39 @@ j.	End the program.
 
 ## PROGRAM:
  ```
-/*
 Program to implement a STRING WRITER
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
 
+import java.io.StringWriter;
+import java.util.*;
+
+public class Main 
+{
+    public static void main(String[] args) 
+    {
+        Scanner sn = new Scanner(System.in);
+        String data = sn.nextLine();
+    
+        try 
+        {
+            StringWriter sw = new StringWriter();
+            sw.write(data);
+            System.out.println("Data in the StringWriter: "+ sw);
+            sw.close();
+        }
+        catch(Exception e) 
+        {
+            e.getStackTrace();
+        }
+    }
+}
+
+```
 
 
 
@@ -35,6 +59,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![Screenshot 2025-05-15 105656](https://github.com/user-attachments/assets/4cf245ca-905e-4b6f-a037-a0769792bcd6)
 
 
 ## RESULT:
