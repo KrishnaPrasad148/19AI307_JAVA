@@ -17,15 +17,51 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Buffer Input/Output Stream using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
 
+import java.io.*; 
+import java.util.*;
+
+public class BufferedReaderExample 
+{
+    public static void main(String args[]) throws Exception
+    {
+        byte[] array = new byte[39];
+        FileWriter myWriter = new FileWriter("sample.txt"); 
+        myWriter.write("This is a line of text inside the file."); 
+        myWriter.close();
+        
+        try
+        {
+            FileInputStream fi = new FileInputStream("sample.txt"); 
+            BufferedInputStream bi = new BufferedInputStream(fi);
+            Scanner sc=new Scanner(System.in);
+            int sk=sc.nextInt();
+            bi.skip(sk);
+            System.out.println("Contents after skipping "+sk+" bytes:");
+            
+            int a = 0;
+            while((a=bi.read()) != -1) 
+            {
+                System.out.print((char)a);
+            }
+            bi.close();
+            fi.close();
+        }
+        catch (IOException e) 
+        { 
+            e.printStackTrace();
+        }
+    }	
+}
+
+```
 
 
 
