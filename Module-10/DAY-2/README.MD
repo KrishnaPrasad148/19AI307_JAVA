@@ -54,6 +54,7 @@ public class Hello
 
 ## OUTPUT:
 
+![Screenshot 2025-05-15 110619](https://github.com/user-attachments/assets/e57de9fc-6d81-43b7-9661-45a30e1be52e)
 
 
 ## RESULT:
