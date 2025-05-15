@@ -60,7 +60,7 @@ public class Main
 
 ## OUTPUT:
 
-
+![Screenshot 2025-05-15 104043](https://github.com/user-attachments/assets/76443dd1-6e0e-4c9e-9a41-a2d9b0b0efb8)
 
 ## RESULT:
 Thus, java program to write data using ByteArrayOutputStream was executed and verified successfully.
