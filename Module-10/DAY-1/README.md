@@ -17,15 +17,37 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a ARRAY LIST using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
 
+import java.util.*; 
+
+public class Snowdrop
+{
+    public static void main(String args[])
+    {
+        Scanner sn = new Scanner(System.in); 
+        int n = sn.nextInt();
+        ArrayList<Integer> arr = new ArrayList<Integer>();
+        
+        for(int i=0; i<n; i++)
+        {
+            arr.add(sn.nextInt());
+        }
+        
+        for(int i : arr)
+        {
+            System.out.println(i);
+        }
+    }
+}
+
+```
 
 
 
@@ -34,6 +56,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![Screenshot 2025-05-15 110312](https://github.com/user-attachments/assets/ec85972a-84f4-41d0-89c8-41be3a267995)
 
 
 ## RESULT:
