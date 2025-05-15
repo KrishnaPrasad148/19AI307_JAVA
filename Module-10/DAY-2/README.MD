@@ -19,15 +19,33 @@ To Create a java program to perform linkedlist, read size of the list , read the
 
 ## PROGRAM:
  ```
-/*
 Program to implement a JAVA LINKED LIST using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
 
+import java.util.*;
+
+public class Hello
+{
+    public static void main(String args[])
+    {
+        Scanner sn = new Scanner(System.in);
+        int n = sn.nextInt();
+        sn.nextLine();
+        LinkedList<String> str = new LinkedList<>();
+        for(int i=0; i<n; i++)
+        {
+            str.add(sn.nextLine());
+        }
+        System.out.println(str);
+    }
+}
+
+```
 
 
 
