@@ -14,15 +14,45 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a String Reader using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
 
+import java.util.*;
+import java.io.*;
+
+public class Main
+{
+    public static void main(String args[])
+    {
+        Scanner sn=new Scanner(System.in);
+        String str = sn.nextLine();
+        int n = sn.nextInt();
+        System.out.println("Original data: "+ str);
+        try
+        {
+            StringReader sr = new StringReader(str);
+            sr.skip(n);
+            System.out.println("Data after skipping");
+            int c = sr.read();
+            while(c!=-1)
+            {
+                System.out.print((char)c);
+                c = sr.read();
+            }
+        }
+        catch(Exception e)
+        {
+            System.out.println(e);
+        }
+    }
+}
+
+```
 
 
 
@@ -31,6 +61,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![Screenshot 2025-05-15 104614](https://github.com/user-attachments/assets/d30c031a-9e91-4e26-9bf9-882938ce9147)
 
 
 ## RESULT:
