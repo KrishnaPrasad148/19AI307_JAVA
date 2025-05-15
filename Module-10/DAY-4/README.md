@@ -18,16 +18,38 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a JAVA HASHSET & LINKEDHASHSET using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
 
+```java
 
+import java.util.*;
+
+public class Main
+{
+    public static void main(String args[])
+    {
+        HashSet <String> hs = new HashSet<>();
+        Scanner sn = new Scanner(System.in);
+        
+        int n = sn.nextInt();
+        for(int i=0;i<n;i++)
+        {
+            hs.add(sn.next());
+        }
+        
+        for(String str : hs)
+        {
+            System.out.println(str);
+        }
+    }
+}
+
+```
 
 
 
@@ -35,6 +57,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![Screenshot 2025-05-15 111927](https://github.com/user-attachments/assets/a756125b-ca52-4b7e-ad18-149a602c766f)
 
 
 ## RESULT:
