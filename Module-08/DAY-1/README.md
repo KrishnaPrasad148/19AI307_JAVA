@@ -13,15 +13,56 @@ To implement a Java Program to write a String in a file "testout.txt" using File
 
 ## PROGRAM:
  ```
-/*
 Program to implement a IO File Stream using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
 
+import java.io.*; 
+import java.util.*;
+
+public class FileOutputStreamExample 
+{ 
+    public static void main(String args[])
+    {
+        File file = new File("testout.txt"); 
+        try
+        {
+            FileOutputStream fout=new FileOutputStream("testout.txt"); 
+            String s="Welcome to Saveetha";
+            byte b[]=s.getBytes();
+            
+            Scanner sc=new Scanner(System.in); 
+            int start=sc.nextInt();
+            int length=sc.nextInt(); 
+            fout.write(b,start,length); fout.close();
+            System.out.println("Successfully Completed"); 
+            
+            FileInputStream fin=new FileInputStream("testout.txt");
+            int i=0;
+            while((i=fin.read())!=-1)
+            { 
+                System.out.print((char)i); 
+            }
+            fin.close(); 
+            System.out.println(); 
+            file.delete();
+            int j=0; 
+            while((j=fin.read())!=-1)
+            { 
+                System.out.println((char)j);
+            }
+        }
+        catch(Exception e)
+        {
+            System.out.println(e);}
+        }
+}
+
+```
 
 
 
