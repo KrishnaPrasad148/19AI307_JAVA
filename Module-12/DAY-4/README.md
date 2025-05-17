@@ -40,7 +40,7 @@ public class Main
 {
 	public static void main(String args[])
 	{
-		PriorityQueue<Integer> pq = new PriorityQueue<>();
+            PriorityQueue<Integer> pq = new PriorityQueue<>();
         
 	    Scanner sc = new Scanner(System.in);
 	    int size = sc.nextInt();
@@ -50,9 +50,9 @@ public class Main
 	    }
 	    
 	    System.out.println("Display the remove element of PriorityQueue:");
-		System.out.println(pq.peek());
-		pQueue.remove(pq.peek());
-		System.out.println("Display the element of PriorityQueue:\n" + pq);
+            System.out.println(pq.peek());
+            pQueue.remove(pq.peek());
+            System.out.println("Display the element of PriorityQueue:\n" + pq);
 	}
 }
 
