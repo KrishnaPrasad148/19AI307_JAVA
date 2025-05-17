@@ -20,15 +20,36 @@ To Create a java program to display the contains key of 104 and to retrieve the 
 
 ## PROGRAM:
  ```
-/*
 Program to implement a JAVA LINKED HASH MAP using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
 
+import java.util.*;
+
+public class Main
+{
+    public static void main(String args[])
+    {
+        Scanner sn = new Scanner(System.in);
+        LinkedHashMap<Integer, String> map = new LinkedHashMap<>();
+        int size = sn.nextInt();
+        for(int i=0; i<size; i++)
+        {
+            map.put(sn.nextInt(), sn.next());
+        }
+        for(int key : map.keySet())
+        {
+            System.out.println("key: " + key + " value: " + map.get(key));
+        }
+        System.out.println("Does HashMap contains 104 as key: " + hash.containsKey(104)) );
+    }
+}
+
+```
 
 
 
@@ -37,6 +58,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![Screenshot 2025-05-17 175758](https://github.com/user-attachments/assets/a62279a2-f274-4c45-a6f4-2160b3c063a3)
 
 
 ## RESULT:
