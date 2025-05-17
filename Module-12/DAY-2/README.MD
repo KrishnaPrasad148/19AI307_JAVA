@@ -71,6 +71,8 @@ public class Main implements Comparable<Main>
 
 ## OUTPUT:
 
+![Screenshot 2025-05-17 181153](https://github.com/user-attachments/assets/2a958468-798d-476d-8303-a833b7678a50)
+
 
 
 ## RESULT:
