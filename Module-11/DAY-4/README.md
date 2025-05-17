@@ -19,15 +19,37 @@ To Create a java program to insert and display the key and values using map inte
 
 ## PROGRAM:
  ```
-/*
 Program to implement a RELATED TO MAP CONCEPTS using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
 
+import java.util.*; 
+
+public class Main
+{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in); 
+        int n = sc.nextInt();
+        Map<Integer,String> hash=new HashMap<>(); 
+        
+        for(int i=0; i<n; i++)
+        {
+            hash.put(sc.nextInt(),sc.next());
+        }
+        
+        System.out.println("Map: " + hash); 
+        System.out.println("Keys: " + hash.keySet()); 
+        System.out.println("Values: " + hash.values());
+        System.out.println("Entries: " + hash.entrySet());
+    }
+}
+
+```
 
 
 
@@ -36,6 +58,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![Uploading Screenshot 2025-05-17 180155.png…]()
 
 
 ## RESULT:
