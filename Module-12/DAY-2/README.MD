@@ -21,15 +21,48 @@ To Write a java program to compare two elements , if element is greater means di
 
 ## PROGRAM:
  ```
-/*
 Program to implement a COMPARABLE & COMPARATOR INTERFACE using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
 
+import java.util.*;
+
+public class Main implements Comparable<Main>
+{
+    int element;
+    Main(int m)
+    {
+        element = m;
+    }
+    
+    public int compareTo(Main other)
+    {
+        if(this.element > other.element){
+            return 1;
+        }
+        else{
+            return -1;
+        }
+    }
+    
+    public static void main(String args[])
+    {
+        Scanner sn = new Scanner(System.in);
+        Main n1 = new Main(sn.nextInt());
+        Main n2 = new Main(sn.nextInt());
+        
+        int res1 = n1.compareTo(n2);
+        int res2 = n2.compareTo(n1);
+        System.out.println(res1);
+        System.out.println(res2);
+        
+    }
+}
+```
 
 
 
