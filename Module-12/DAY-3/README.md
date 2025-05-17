@@ -21,15 +21,45 @@ c)	Use a `for` loop to read `n2` strings and add each to `vector2`.
 
 ## PROGRAM:
  ```
-/*
 Program to implement a JAVA STACK & VECTOR  using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
 
+import java.util.*;
+
+public class Main
+{
+    public static void main(String args[])
+    {
+        Scanner sn = new Scanner(System.in);
+        
+        int n = sn.nextInt();
+        sn.nextLine();
+        Vector<Object> vec1 = new Vector<>();
+        for(int i=0; i<n; i++)
+        {
+            vec1.add(sn.next());
+        }
+        System.out.println("The vector is: " + vec1);
+        
+        int m = sn.nextInt();
+        sn.nextLine();
+        Vector<Object> vec2 = new Vector<>();
+        for(int i=0; i<m; i++)
+        {
+            vec2.add(sn.next());
+        }
+        System.out.println("The Vector is: " + vec2);
+        
+        System.out.println("Are both of them equal? " + vec1.equals(vec2));
+    }
+}
+
+```
 
 
 
@@ -38,6 +68,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![Screenshot 2025-05-17 181403](https://github.com/user-attachments/assets/5dcabafa-0439-4bf5-b865-6233cf7a2eef)
 
 
 ## RESULT:
