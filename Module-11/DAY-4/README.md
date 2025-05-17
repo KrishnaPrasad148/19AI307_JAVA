@@ -58,7 +58,7 @@ public class Main
 
 ## OUTPUT:
 
-![Uploading Screenshot 2025-05-17 180155.png…]()
+![Screenshot 2025-05-17 180155](https://github.com/user-attachments/assets/3266f510-9a70-463d-bf1d-cf533d6e52a2)
 
 
 ## RESULT:
