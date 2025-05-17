@@ -61,7 +61,7 @@ public class Main
 
 
 ## OUTPUT:
-
+![Screenshot 2025-05-17 175348](https://github.com/user-attachments/assets/732af573-55c5-44b2-98a5-1c6a9a019eb0)
 
 
 ## RESULT:
