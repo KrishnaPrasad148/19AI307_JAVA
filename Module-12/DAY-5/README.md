@@ -24,24 +24,22 @@ RegisterNumber:  212223230108
 
 import java.util.*;
 
-public class deQueueDemo {
-	
-
+public class deQueueDemo
+{
 	public static void main(String args[])
 	{
-	
-		Deque<String> dq = new ArrayDeque<String>();
+            Deque<String> dq = new ArrayDeque<String>();
         
 	    Scanner sc=new Scanner(System.in);
 	    int size=sc.nextInt();
 	    sc.nextLine();
-	    for(int i=0;i<size;i++){
+	    for(int i=0;i<size;i++)
+	    {
 	        dq.offer(sc.next());
 	    }
 	    System.out.println("Display the element of Dequeue:");
-		System.out.println(dq);
-		System.out.println(dq.getFirst());
-     	
+            System.out.println(dq);
+            System.out.println(dq.getFirst());
 	}
 }
 
