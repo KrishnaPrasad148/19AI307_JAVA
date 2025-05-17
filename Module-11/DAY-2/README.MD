@@ -20,15 +20,40 @@ To Create a java program to retrieve the key and value from hashtable for all in
 
 ## PROGRAM:
  ```
-/*
 Program to implement a JAVA MAP & HASHMAP AND HASHTABLE using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
 
+import java.util.*;  
+
+public class Main
+{  
+    public static void main(String args[])
+    { 
+     
+        Hashtable<Integer,String> hash = new Hashtable<>(); 
+        Scanner sn = new Scanner(System.in);
+      
+        int size = sn.nextInt();
+        for(int i=0;i<size;i++)
+        {
+            int a = sn.nextInt();
+            String b = sn.next();
+            hash.put(a,b);  
+        } 
+     
+        for(Map.Entry m : hash.entrySet())
+        {
+            System.out.println("key: " +m.getKey()+ " value: " +m.getValue());
+        }
+    }  
+}  
+
+```
 
 
 
