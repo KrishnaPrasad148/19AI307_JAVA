@@ -22,15 +22,32 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a JAVA TREE MAP using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  Krishna Prasad S
+RegisterNumber:  212223230108
 ```
 
 ## Sourcecode.java:
+```java
 
+import java.util.*;
+
+public class Main
+{
+    public static void main(String args[])
+    {
+        Scanner sn = new Scanner(System.in);
+        TreeMap<Integer, String> map = new TreeMap<>(Comparator.naturalOrder());
+        int n = sn.nextInt();
+        for(int i=0; i<n; i++)
+        {
+            map.put(sn.nextInt(), sn.next());
+        }
+        System.out.println("Orginal TreeMap content: " + map);
+    }
+}
+
+```
 
 
 
@@ -39,6 +56,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![Screenshot 2025-05-17 180947](https://github.com/user-attachments/assets/b6edfd80-db1f-4b72-b4d5-3b66caaeb635)
 
 
 ## RESULT:
