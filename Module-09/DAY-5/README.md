@@ -59,7 +59,7 @@ public class Main
 
 ## OUTPUT:
 
-![Screenshot 2025-05-15 105656](https://github.com/user-attachments/assets/4cf245ca-905e-4b6f-a037-a0769792bcd6)
+![440202870-91e15a0b-ae43-4532-9754-cce807af2c07](https://github.com/user-attachments/assets/ee8e5233-f8b7-4abc-a1d9-6e83f2e2013a)
 
 
 ## RESULT:
