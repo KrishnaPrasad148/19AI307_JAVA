@@ -97,6 +97,7 @@ public class Main
 
 ## OUTPUT:
 
+![440202764-faf0d5f6-9998-4d44-b586-b3c706536431](https://github.com/user-attachments/assets/fad27c2e-3b5f-403b-95ff-f343f212503d)
 
 
 ## RESULT:
