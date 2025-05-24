@@ -60,7 +60,7 @@ public class ReadConsole
 
 
 ## OUTPUT:
-![Screenshot 2025-05-15 103223](https://github.com/user-attachments/assets/d097648f-4303-40a5-9143-e37ccfc1a810)
+![443596482-64d36923-1dc1-4c33-a14f-58dc1bffd2b2](https://github.com/user-attachments/assets/37106c99-13ad-4168-bd6e-86347ec30bb3)
 
 
 
