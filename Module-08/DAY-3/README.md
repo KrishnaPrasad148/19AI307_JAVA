@@ -9,7 +9,7 @@
 2.	In main(), create a FileOutputStream and a FilterOutputStream to write "India is my country" to a file named javaFile123.txt.
 3.	Write the string to the file using filter.write(), then close the FilterOutputStream.
 4.	Create a FileReader to read from javaFile123.txt, and wrap it with CustomFilterReader1.
-5.	Read and print each character, where spaces are replaced with $, until the end of the file.
+5.	Read and print each character, where spaces are replaced with "*", until the end of the file.
 6.	Close CustomFilterReader1 and FileReader to free resources
 
 
@@ -25,48 +25,27 @@ RegisterNumber:  212223230108
 
 import java.io.*;
 
-class CustomFilterReader1 extends FilterReader 
-{ 
-    CustomFilterReader1(Reader in)
+class CustomFilterReader1 extends FilterReader
+{
+    public CustomFilterReader1(Reader in)
     {
         super(in);
     }
-    public int read() throws IOException 
-    {   
-        int x = super.read();
-        if ((char) x == ' ')
-            return ((int) '$'); 
-        else
-            return x;
-    }
-}
-
-public class FilterReaderExample 
-{ 
-    public static void main(String[] args) 
+    public int read() throws IOException
     {
-        try 
+        int c = super.read();
+        while(c!=-1)
         {
-            FileOutputStream file1 = new FileOutputStream("javaFile123.txt"); 
-            FilterOutputStream filter = new FilterOutputStream(file1);
-            String s="India is my country"; 
-            
-            byte b[]=s.getBytes(); filter.write(b);
-            Reader reader = new FileReader("javaFile123.txt"); 
-            CustomFilterReader1 fr = new CustomFilterReader1(reader); 
-            
-            int i;
-            while ((i = fr.read()) != -1) 
-            { 
-                System.out.print((char) i);
+            if((char)c==' ')
+            {
+                return ((int)'*');
             }
-            fr.close();
-            reader.close();
-        } 
-        catch (Exception e) 
-        { 
-            e.getMessage();
+            else
+            {
+                return c;
+            }
         }
+        return c;
     }
 }
 
@@ -79,6 +58,7 @@ public class FilterReaderExample
 
 ## OUTPUT:
 
+![Screenshot 2025-05-24 141816](https://github.com/user-attachments/assets/22af7c8b-c3c8-4a9a-95b4-972672352d25)
 
 
 ## RESULT:
