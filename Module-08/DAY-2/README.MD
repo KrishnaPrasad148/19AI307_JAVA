@@ -42,7 +42,7 @@ catch(IOException e)
 
 ## OUTPUT:
 
-![image](https://github.com/akshayaamanagal/19AI307_JAVA/blob/30046fcce69c38ae56989fd01721dd79977e6181/Module-08/DAY-2/image.png)
+![Screenshot 2025-05-24 141534](https://github.com/user-attachments/assets/e0864297-b325-4158-b812-98e2e702cc80)
 
 ## RESULT:
 Thus, the java program to append a String in a file “testout.txt” using Writer.was executed and verified successfully
