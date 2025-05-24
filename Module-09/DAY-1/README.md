@@ -65,6 +65,7 @@ public class FileOutputStreamExample
 
 ## OUTPUT:
 
+![Screenshot 2025-05-24 142902](https://github.com/user-attachments/assets/cc8b9f09-7e1d-49cd-bd37-9c8940e46cd3)
 
 
 ## RESULT:
